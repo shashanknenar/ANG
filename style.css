@@ -431,7 +431,21 @@ html {
             margin-right: auto;
             margin-top: 0 !important;
         }
+
+        .service-1{
+            height: 100% !important;
+        }
+        .up{
+           display: none; 
+
+        }
      
+        .down{
+            display: block !important;
+          font-size: 60px;
+          margin-left: 40%;
+          margin-top: 15%;
+        }
     .footer-p2
     {
         text-align: center;
@@ -534,7 +548,14 @@ html {
     .native1{
         width: 100px !important;
     }
+    .list-center{
+        padding-left: 40px !important;
+    }
 
+    .rtw{
+        margin-top: 50px;
+    }
+    
     @media only screen and (max-width: 640px) {
         .native2{
             width: 295px !important;
@@ -627,10 +648,26 @@ html {
         }
     }
 
+
     @media (min-width:768px) and (max-width: 1024px){
         .native2{
             width: 255px !important;
             height: 200px !important;
+        }
+
+        .down{
+            display: none !important;
+        }
+        .up{
+            display: block !important;
+            margin-top: 80% !important;
+        }
+
+        .service-1{
+            height: 300px !important;
+        }
+        .rtw{
+            margin-top: 0 !important;
         }
         .native3{
             height: 200px !important;
@@ -941,10 +978,43 @@ html {
     }
 }
 
+@media only screen and (min-width:1024px) and (max-width:1366px){
+    .service-1{
+        height: 270px !important;
+    }
+
+    .list-center{
+        padding-left: 100px !important;
+    }
+}
+
 .footer-no{
     color:white;
     text-decoration: none !important;
 }
 .footer-no:hover{
     color:white;
+}
+
+.service-1{
+    background-color: #d3d3d3;
+    border-radius: 50px;
+    padding:30px 30px 30px 30px;
+    height: 210px;
+}
+
+.list-center{
+    padding-left: 165px;
+   
+}
+
+
+.down{
+    display: none;
+}
+
+.up{
+    font-size: 70px;
+    margin-left: 30%;
+    margin-top: 30%;
 }
